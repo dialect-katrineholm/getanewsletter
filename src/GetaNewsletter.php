@@ -43,4 +43,8 @@ class GetaNewsletter{
 		return new ApiHandler("/notifications/", $id);
 	}
 
+	public static function bulkImport($contacts, $mode = 0){
+		return (new ApiHandler("/contacts/import/bulk/", null))->post(["items" => $contacts, "mode" => $mode]);
+	}
+
 }
