@@ -62,9 +62,26 @@ class GetaNewsletterTest extends TestCase
 
 		];
 		$contact = GetaNewsletter::contacts()->post($data);
-		$first_name = $faker->firstName;
 		$contact = GetaNewsletter::contacts($contact->email)->delete();
 
 		$this->assertEmpty($contact);
+	}
+	/** @test */
+	public function can_build_import(){
+		$c1 = [
+			"email" => $faker->email,
+			"first_name" => $faker->firstName,
+			"last_name" => $faker->lastName,
+
+		];
+		$c2 = [
+			"email" => $faker->email,
+			"first_name" => $faker->firstName,
+			"last_name" => $faker->lastName,
+
+		];
+
+		$contacts = GetaNewsletter::bulkImport([$c1, $c2]);
+		$this->assertCount(2, $contacts);
 	}
 }
