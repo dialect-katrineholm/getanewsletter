@@ -1,10 +1,10 @@
 <?php
 
-namespace Dialect\Getanewletter;
+namespace Dialect\Getanewsletter;
 
 use Illuminate\Support\ServiceProvider;
 
-class GetanewletterServiceProvider extends ServiceProvider
+class GetanewsletterServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
