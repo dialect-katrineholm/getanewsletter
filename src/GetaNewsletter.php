@@ -1,5 +1,5 @@
 <?php
-namespace Dialect\Getanewsletter;
+namespace Dialect\GetaNewsletter;
 
 class GetaNewsletter{
 
@@ -42,12 +42,5 @@ class GetaNewsletter{
 	public static function notifications($id = null){
 		return new ApiHandler("/notifications/", $id);
 	}
-
-
-
-
-
-
-
 
 }

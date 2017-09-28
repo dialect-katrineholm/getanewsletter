@@ -1,5 +1,5 @@
 <?php
-namespace Dialect\Getanewsletter;
+namespace Dialect\GetaNewsletter;
 use GuzzleHttp\Client;
 class ApiHandler{
 
