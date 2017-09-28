@@ -1,5 +1,5 @@
 <?php
-namespace Dialect\Getanewletter;
+namespace Dialect\Getanewsletter;
 
 class GetaNewsletter{
 
