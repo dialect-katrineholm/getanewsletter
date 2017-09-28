@@ -1,6 +1,6 @@
 <?php
 use Tests\TestCase;
-use Dialect\Getanewsletter\GetaNewsletter;
+use Dialect\GetaNewsletter\GetaNewsletter;
 class GetaNewsletterTest extends TestCase
 {
 

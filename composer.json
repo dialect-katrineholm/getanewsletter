@@ -1,12 +1,12 @@
 {
-    "name": "Dialect/Getanewsletter",
+    "name": "Dialect/GetaNewsletter",
     "type": "library",
     "description": "Wrapper for Get a Newsletter api",
     "keywords": [
         "Dialect",
         "Getanewsletter"
     ],
-    "homepage": "https://github.com/Dialect/Getanewsletter",
+    "homepage": "https://github.com/Dialect/getanewsletter",
     "license": "MIT",
     "authors": [
         {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dialect\\Getanewsletter\\": "src"
+            "Dialect\\GetaNewsletter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dialect\\Getanewsletter\\": "tests"
+            "Dialect\\GetaNewsletter\\": "tests"
         }
     },
     "scripts": {
